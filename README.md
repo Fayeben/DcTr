@@ -1,6 +1,6 @@
 # DcTr: Noise-robust point cloud completion by dual-channel transformer with cross-attention
 
-[[Paper]](https://www.sciencedirect.com/science/article/pii/S0031320322005313) [[Dataset]](./DATASET.md) [[Models]](#pretrained-models)
+[[Paper]](https://www.sciencedirect.com/science/article/pii/S0031320322005313) [[Models]](#pretrained-models)
 
 This repository contains PyTorch implementation for __DcTr: Noise-robust point cloud completion by dual-channel transformer with cross-attention__ (Pattern Recognition).
 
@@ -13,10 +13,10 @@ Current point cloud completion research mainly utilizes the global shape represe
 We provide pretrained DcTr models:
 | dataset  | url|
 | --- | --- |  
-| ShapeNet-55 |  [[Google Drive](https://drive.google.com/file/d/1WzERLlbSwzGOBybzkjBrApwyVMTG00CJ/view?usp=sharing)] |
-| ShapeNet-34 |  [[Google Drive](https://drive.google.com/file/d/1Xy6wZjgJNhOYe3wDA-SbLMmGwBJ0jcBz/view?usp=sharing)] |
-| PCN |   [[Google Drive](https://drive.google.com/file/d/182xUHiUyIQhgqstFTVPoCyYyxmdiZlxq/view?usp=sharing)]   |
-
+| ShapeNet-55 |  [[Google Drive](https://drive.google.com/file/d/1RjDY5hu2Lv4WVp8Vwzgzj_V2985wHIGe/view?usp=share_link)] |
+| ShapeNet-34 |  [[Google Drive](https://drive.google.com/file/d/1xz9zvgJu_qHhcYTrphKcpKQ6jFUbEKLD/view?usp=share_link)] |
+| PCN |   [[Google Drive](https://drive.google.com/file/d/1ExGqBna7wKEV_V12f22KeDjSP8Qu8yfW/view?usp=share_link)]   |
+| MVP |   [[Google Drive](https://drive.google.com/file/d/18MfoZqc3oPcicmUT5Gu4H3VkEgq5xNmm/view?usp=share_link)]   |
 
 ## Usage
 

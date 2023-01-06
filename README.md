@@ -6,7 +6,7 @@ This repository contains PyTorch implementation for __DcTr: Noise-robust point c
 
 Current point cloud completion research mainly utilizes the global shape representation and local features to recover the missing regions of 3D shape for the partial point cloud. However, these methods suffer from inefficient utilization of local features and unstructured points prediction in local patches, hardly resulting in a well-arranged structure for points. To tackle these problems, we propose to employ Dual-channel Transformer and Cross-attention (CA) for point cloud completion (DcTr). The DcTr is apt at using local features and preserving a well-structured generation process. Specifically, the dual-channel transformer leverages point-wise attention and channel-wise attention to summarize the deconvolution patterns used in the previous Dual-channel Transformer Point Deconvolution (DCTPD) stage to produce the deconvolution in the current DCTPD stage. Meanwhile, we employ cross-attention to convey the geometric information from the local regions of incomplete point clouds for the generation of complete ones at different resolutions. In this way, we can generate the locally compact and structured point cloud by capturing the structure characteristic of 3D shape in local patches. Our experimental results indicate that DcTr outperforms the state-of-the-art point cloud completion methods under several benchmarks and is robust to various kinds of noise.
 
-![intro](fig/DcTr.pdf)
+![intro](fig/DcTr.png)
 
 ## Pretrained Models
 
